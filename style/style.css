@@ -1,0 +1,149 @@
+.header  {
+    background-color: coral;
+    
+}
+.header .navbar a{
+    color: white !important;
+}
+a,a:hover{
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+}
+.header .navbar .sign{
+    text-align: end;
+}
+.header .navbar #signin {
+    float: right;
+    margin-left: 20px;
+}
+.header .navbar.search-box{
+    height: 150px;
+    position: relative;
+}
+.header .navbar.search-box #search-box{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    height: 34px;
+}
+.header .navbar.search-box #search-btn{
+    position: absolute;
+    right: 20px;
+    top: 4px;
+    width: 64px;
+    border: none;
+    border-radius: 4px;
+    background-color: coral;
+    color: white;
+}
+.header .navbar .giohang {
+    text-align: end;
+}
+.header .navbar .giohang a i{
+    font-size:40px;
+}
+ul,li{
+    list-style: none;
+    z-index: 99999;
+}
+ul{
+    margin:0px;
+    width: 100%;
+}
+.menu{
+    background-color: #f96800;
+}
+.menu ul li.item-lv-1{
+    float: left;
+}
+.menu ul li ul{
+    display: none;
+}
+.menu a{
+    color:#fff;
+}
+.menu ul li.item-lv-1{
+    text-align: center;
+    display: inline-block;
+    width: calc(100%/6);
+    height: 55px;
+    line-height: 55px;
+    margin-left: 15px;
+}
+.menu ul li.item-lv-1:first-child{
+    margin-left: -78px;
+}
+.menu ul li.item-lv-1:hover{
+    background-color:coral;
+}
+.menu ul li.item-lv-1:hover ul.menu-lv-2{
+    display: block;
+    background-color: #ef540a;
+    text-align: center;
+    padding: 0px;
+}
+.menu ul li.item-lv-1 ul.menu-lv-2 li.item-lv-2:hover{
+    background-color:coral;
+}
+.banner,.big-banner {
+    
+padding-top: 20px;
+}
+.banner  img{
+    width: 100%;
+    height: 100%;
+}
+.banner .img-banner{
+    margin-bottom: 8px;
+    height: 86px;
+}
+.body{
+    background-color: #f0f0f0;
+}
+.body .smartphone,.body .laptop{
+    margin-top: 20px;
+    background-color: #fff;
+}
+.body  .labbel{
+    border-bottom: 1px solid #eee;
+}
+.body  .labbel h2{
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    padding: 14px 10px;
+    text-transform: uppercase;
+    float: left;
+}
+.body  .labbel p{
+    float: right;
+    margin-right: 20px;
+    font-size:14px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #288ad6;
+    padding: 14px 10px
+}
+.body .list{
+    
+    margin-top: 15px;
+}
+.body  .list .item img{
+    width: 75%;
+    margin: auto;
+} 
+.body .list .item p{
+    text-transform: capitalize;
+    text-align: center;
+    color: coral;
+    margin: 0;
+}
+.body .list .item:hover img{
+    width: 100%;
+}
+.body  .list .item:hover p{
+    color: #cee452;
+}
+:focus {
+    outline: none;
+}
